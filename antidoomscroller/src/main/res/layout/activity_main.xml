@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#05457E"
+            android:src="@drawable/background"
+            android:visibility="visible"
+            tools:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="323dp"
+            android:layout_marginBottom="323dp"
+            android:background="#05457E"
+            android:backgroundTint="#05457E"
+            android:fontFamily="sans-serif-light"
+            android:text="There is some good left in this world..."
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#D8D2BB"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/stars" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00ffffff"
+            android:backgroundTint="#00FFFFFF"
+            android:rotation="0"
+            android:rotationY="0"
+            android:text="Next"
+            android:textColor="#ffffffff"
+            android:translationY="500dp"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+
+</LinearLayout>
